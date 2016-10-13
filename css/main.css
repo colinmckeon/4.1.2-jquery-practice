@@ -1,4 +1,10 @@
 body {
   background-color: orange; }
 
+.heading:hover {
+  background-color: green; }
+
+.heading {
+  background-color: #585A5F; }
+
 /*# sourceMappingURL=main.css.map */

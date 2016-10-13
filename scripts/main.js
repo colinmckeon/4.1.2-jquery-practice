@@ -8,10 +8,17 @@
 
 
     $heading.on('click', function(){
-        var target = $(this);
+        var $this = $(this);
+
+      $this.next().slideDown();
+      $this.parents('.holder').siblings().find('.categories').slideUp();
+
+      $this.addClass('active');
+      $this.parents('.holder').siblings().find('.heading').removeClass('active');
 
 
-    })
+
+    });
 
 
 

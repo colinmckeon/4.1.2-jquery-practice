@@ -1,11 +1,16 @@
-body{
-  background-color: orange;
-}
 
-.heading:hover{
-  background-color: green;
-}
 
 .heading{
   background-color: #585A5F;
+  &:hover{
+    background-color: #89AF35;
+  }
+  &.active{
+    background-color: #89AF35;
+  }
+
+}
+
+.categories{
+  display: none;
 }

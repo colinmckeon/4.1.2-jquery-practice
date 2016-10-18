@@ -6,6 +6,15 @@
     background-color: #89AF35; }
 
 .categories {
-  display: none; }
+  display: none;
+  background-color: #E5E5E5;
+  list-style: none; }
+
+.heading {
+  color: #F4F4F4; }
+
+.colin {
+  border: 2px solid black;
+  padding: 0px; }
 
 /*# sourceMappingURL=main.css.map */

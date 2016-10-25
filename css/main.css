@@ -1,7 +1,8 @@
 .heading {
   background-color: #585A5F; }
   .heading:hover {
-    background-color: #89AF35; }
+    background-color: #89AF35;
+    color: #585A5F; }
   .heading.active {
     background-color: #89AF35; }
 
@@ -11,12 +12,13 @@
   list-style: none; }
 
 .heading {
-  color: #F4F4F4; }
+  color: #F4F4F4;
+  padding: 5px 0px 5px 0px; }
 
 .colin {
   border: 2px solid #444445;
   padding: 0px;
-  background-color: #444445; }
+  background-color: #585A5F; }
 
 h4 {
   margin: 0; }
@@ -25,6 +27,13 @@ h4 {
   text-align: right; }
 
 li {
-  color: #797979; }
+  color: #797979;
+  padding: 5px 0px  5px 0px; }
+
+.example {
+  border-bottom: 1px solid #797979; }
+
+.categories {
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

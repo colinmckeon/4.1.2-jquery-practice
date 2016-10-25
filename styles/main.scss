@@ -4,6 +4,7 @@
   background-color: #585A5F;
   &:hover{
     background-color: #89AF35;
+    color: #585A5F;
   }
   &.active{
     background-color: #89AF35;
@@ -19,12 +20,13 @@
 
 .heading{
   color: #F4F4F4;
+  padding: 5px 0px 5px 0px;
 }
 
 .colin{
   border: 2px solid #444445;
   padding: 0px;
-  background-color: #444445;
+  background-color: #585A5F;
 }
 
 h4{
@@ -37,4 +39,13 @@ h4{
 
 li{
   color: #797979;
+  padding: 5px 0px  5px 0px;
+}
+
+.example{
+  border-bottom: 1px solid #797979;
+}
+
+.categories{
+  padding: 0;
 }

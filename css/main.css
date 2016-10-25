@@ -14,7 +14,17 @@
   color: #F4F4F4; }
 
 .colin {
-  border: 2px solid black;
-  padding: 0px; }
+  border: 2px solid #444445;
+  padding: 0px;
+  background-color: #444445; }
+
+h4 {
+  margin: 0; }
+
+.heading-number {
+  text-align: right; }
+
+li {
+  color: #797979; }
 
 /*# sourceMappingURL=main.css.map */

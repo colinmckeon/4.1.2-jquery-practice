@@ -13,7 +13,8 @@
 
 .heading {
   color: #F4F4F4;
-  padding: 5px 0px 5px 0px; }
+  padding: 5px 0px 5px 0px;
+  padding-left: 5px; }
 
 .colin {
   border: 2px solid #444445;
@@ -24,14 +25,26 @@ h4 {
   margin: 0; }
 
 .heading-number {
-  text-align: right; }
+  float: right;
+  margin-right: 10px; }
+
+.sub-numbers {
+  float: right;
+  margin-right: 10px;
+  border: 1px solid #797979;
+  border-radius: 60%; }
+
+.sub-cats {
+  margin-left: 10px;
+  font-weight: bold; }
 
 li {
   color: #797979;
   padding: 5px 0px  5px 0px; }
 
 .example {
-  border-bottom: 1px solid #797979; }
+  border-bottom: 1px solid #797979;
+  padding-left: 5px; }
 
 .categories {
   padding: 0; }
